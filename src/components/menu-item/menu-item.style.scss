@@ -1,6 +1,6 @@
 .menu-item {
     min-width: 30%;
-    height: 500px;
+    height: 300px;
     flex: 1 1 auto;
     display: flex;
     align-items: center;
@@ -13,7 +13,7 @@
       cursor: pointer;
 
       & .background-img {
-        transform: scale(1.1);
+        transform: scale(1.05);
         transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
       }
       & .content {
@@ -22,7 +22,7 @@
     }
 
     &.large {
-        height: 650px;
+        height: 480px;
     }
     
     &:first-child {
@@ -41,13 +41,13 @@
     }
   
     .content {
-      height: 150px;
-      padding: 0 75px;
+      height: 100px;
+      padding: 0 50px;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      border: 2px solid black;
+      border: 1px solid black;
       background-color: white;
       opacity: 0.9;
       position: absolute;
@@ -55,13 +55,13 @@
       .title {
         font-weight: bold;
         margin-bottom: 6px;
-        font-size: 30px;
+        font-size: 22px;
         color: #4a4a4a;
       }
   
       .subtitle {
         font-weight: lighter;
-        font-size: 22px;
+        font-size: 18px;
       }
     }
   }
